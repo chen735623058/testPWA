@@ -8,7 +8,6 @@ this.addEventListener('install', function(event) {
     console.log('install');
     //需要缓存的页面资源
     var urlsToPrefetch = [
-        '/',
         'index.html',
         'main.css',
         'icon.png'
